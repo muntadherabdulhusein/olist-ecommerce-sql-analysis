@@ -62,7 +62,32 @@ The other 3% are still shipped, unavailable, invoiced or processing.
 
 ### 2. Sales overview
 
-_In progress._
+| Metric (delivered orders) | Value |
+|---|---|
+| Orders | 96,478 |
+| Customers | 93,358 |
+| Revenue | 13.2 M BRL |
+| Average order value | 137 BRL |
+
+**Growth.** 2016 holds only a handful of orders (test period), so the analysis starts in January 2017.
+Revenue grew fast during 2017: January to August 2018 brought 7.22 M BRL, against 2.99 M BRL in the same months of 2017 (**+141%**).
+
+**Peak.** November 2017 (Black Friday) is the best month in the data: 7,289 orders, +52% on October.
+
+**Plateau.** In 2018 monthly revenue stayed flat between 0.83 M and 0.98 M BRL. Growth has stopped.
+
+| Month | Orders | Revenue (BRL) |
+|---|---|---|
+| 2017-01 | 750 | 111,798 |
+| 2017-06 | 3,135 | 421,923 |
+| 2017-11 | 7,289 | 987,765 |
+| 2018-01 | 7,069 | 924,645 |
+| 2018-05 | 6,749 | 977,545 |
+| 2018-08 | 6,351 | 838,577 |
+
+**Weekdays.** Monday is the busiest day (15,701 orders). Saturday is the quietest (10,555), about a third lower.
+
+**Payments.** Credit card is used for 74% of payments, boleto (Brazilian bank slip) for 19%, vouchers for 6%.
 
 ### 3. Customers
 
