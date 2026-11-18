@@ -1,0 +1,45 @@
+# Olist E-commerce Analysis (SQL + Power BI)
+
+Analysis of about 100,000 real orders from Olist, a Brazilian online marketplace (2016–2018).
+
+## Business questions
+
+1. Who are the best customers, and where do they live?
+2. Which product categories bring the most revenue?
+3. How long does delivery take, and which orders arrive late?
+4. Do late deliveries lead to lower review scores?
+5. Which sellers perform best and worst?
+
+## Data
+
+- Source: [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- 9 tables: customers, orders, order items, payments, reviews, products, sellers, geolocation, category names
+- The data files are not stored in this repository. Download them from Kaggle and unzip them into a `data/` folder.
+
+## Tools
+
+- SQL (SQLite, DB Browser for SQLite)
+- Power BI
+
+## Method
+
+_In progress._
+
+## Findings
+
+_In progress._
+
+## Recommendations
+
+_In progress._
+
+## Repository structure
+
+```
+data/   raw CSV files (not uploaded)
+sql/    SQL queries, one file per question
+```
+
+## Author
+
+Muntadher Abdulhusein · [LinkedIn](https://www.linkedin.com/in/muntadher-abdulhusein)

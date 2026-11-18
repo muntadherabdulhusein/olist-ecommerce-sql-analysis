@@ -1,0 +1,8 @@
+# Raw data (download from Kaggle)
+data/
+*.zip
+
+# Local database files
+*.db
+*.sqlite
+*.sqbpro
