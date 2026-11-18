@@ -151,7 +151,46 @@ Cheap items (electronics, food) and bulky items (furniture) pay the most freight
 
 ### 5. Delivery performance
 
-_In progress._
+**Overall.** An order takes **12.6 days** on average to reach the customer.
+6.8% of delivered orders (6,534) arrived after the estimated date.
+
+| Delivery time | Orders | Share |
+|---|---|---|
+| up to 1 week | 26,575 | 27.5% |
+| 1–2 weeks | 39,964 | 41.4% |
+| 2–3 weeks | 17,542 | 18.2% |
+| 3–4 weeks | 7,865 | 8.2% |
+| over 4 weeks | 4,524 | 4.7% |
+
+69% of orders arrive within two weeks, but 13% take more than three weeks.
+
+**By state.** Distance from São Paulo, where most sellers are, drives delays.
+The north-east is slowest and most often late. Rio de Janeiro stands out: it is the second-largest market, yet 12% of its orders are late.
+
+| State | Orders | Avg days | Late |
+|---|---|---|---|
+| MA | 717 | 21.6 | 17.4% |
+| CE | 1,279 | 21.3 | 13.8% |
+| BA | 3,256 | 19.3 | 12.2% |
+| RJ | 12,350 | 15.3 | 12.1% |
+| … | | | |
+| MG | 11,354 | 12.0 | 4.6% |
+| SP | 40,494 | 8.8 | 4.5% |
+| PR | 4,923 | 12.0 | 4.0% |
+
+**Over time.** Peaks in demand break the delivery network:
+
+| Month | Orders | Avg days | Late |
+|---|---|---|---|
+| 2017-10 | 4,478 | 11.9 | 4.2% |
+| 2017-11 (Black Friday) | 7,288 | 15.2 | 12.4% |
+| 2018-02 | 6,555 | 16.9 | 14.1% |
+| 2018-03 | 7,003 | 16.3 | **19.0%** |
+| 2018-06 | 6,096 | 9.2 | 1.2% |
+| 2018-08 | 6,351 | 7.7 | 6.2% |
+
+Late deliveries tripled during Black Friday 2017 and reached 19% in March 2018.
+From April 2018 delivery recovered strongly: by August 2018 the average was 7.7 days, the fastest in the data.
 
 ### 6. Reviews
 
