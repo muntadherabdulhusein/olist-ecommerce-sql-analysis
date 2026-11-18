@@ -27,7 +27,24 @@ _In progress._
 
 ## Findings
 
-_In progress._
+### 1. Order status
+
+97% of all orders (96,478 of 99,441) were delivered.
+Only 625 orders (0.6%) were canceled.
+The other 3% are still shipped, unavailable, invoiced or processing.
+
+| Status | Orders |
+|---|---|
+| delivered | 96,478 |
+| shipped | 1,107 |
+| canceled | 625 |
+| unavailable | 609 |
+| invoiced | 314 |
+| processing | 301 |
+| created | 5 |
+| approved | 2 |
+
+Query: [`sql/00_explore.sql`](sql/00_explore.sql)
 
 ## Recommendations
 
