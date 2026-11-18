@@ -122,7 +122,32 @@ The 500+ group alone (4% of customers) brings 26%.
 
 ### 4. Products
 
-_In progress._
+**Top categories.** Health & beauty and watches & gifts lead revenue.
+Watches & gifts sells fewer items but at a much higher price (199 BRL on average).
+
+| Rank | Category | Items sold | Revenue (BRL) | Avg price | Share |
+|---|---|---|---|---|---|
+| 1 | health_beauty | 9,465 | 1,233,132 | 130 | 9.3% |
+| 2 | watches_gifts | 5,859 | 1,166,177 | 199 | 8.8% |
+| 3 | bed_bath_table | 10,953 | 1,023,435 | 93 | 7.7% |
+| 4 | sports_leisure | 8,431 | 954,853 | 113 | 7.2% |
+| 5 | computers_accessories | 7,644 | 888,725 | 116 | 6.7% |
+
+The top 10 categories bring 62% of revenue.
+
+**80/20 rule.** 17 of 74 categories (23%) make 80% of revenue.
+
+**Freight cost.** For some categories shipping is a large part of the price:
+
+| Category | Avg price | Avg freight | Freight as % of price |
+|---|---|---|---|
+| electronics | 58 | 17 | 29% |
+| furniture_living_room | 137 | 36 | 26% |
+| office_furniture | 162 | 41 | 25% |
+| food | 58 | 14 | 25% |
+| furniture_decor | 88 | 21 | 24% |
+
+Cheap items (electronics, food) and bulky items (furniture) pay the most freight relative to their price.
 
 ### 5. Delivery performance
 
