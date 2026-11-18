@@ -194,7 +194,32 @@ From April 2018 delivery recovered strongly: by August 2018 the average was 7.7 
 
 ### 6. Reviews
 
-_In progress._
+**Late delivery is the main driver of bad reviews.**
+
+| Delivery | Orders | Avg score | Bad reviews (1–2 ★) |
+|---|---|---|---|
+| on time | 89,443 | 4.29 | 9.2% |
+| late | 6,381 | **2.27** | **62.4%** |
+
+A late order is almost **7 times** more likely to get a bad review.
+The score drops with every extra day of delay:
+
+| Lateness | Orders | Avg score |
+|---|---|---|
+| on time | 89,443 | 4.29 |
+| 1–3 days late | 1,852 | 3.29 |
+| 4–7 days late | 1,748 | 2.11 |
+| over 1 week late | 2,781 | 1.70 |
+
+**Overall satisfaction** is good: 77% of reviews are 4 or 5 stars, 15% are 1 or 2 stars.
+
+| Stars | Reviews | Share |
+|---|---|---|
+| 5 | 57,328 | 57.8% |
+| 4 | 19,142 | 19.3% |
+| 3 | 8,179 | 8.2% |
+| 2 | 3,151 | 3.2% |
+| 1 | 11,424 | 11.5% |
 
 ### 7. Sellers
 
