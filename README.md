@@ -3,6 +3,14 @@
 Analysis of about 100,000 real orders from Olist, a Brazilian online marketplace (2016–2018).
 The goal: find what drives revenue, how well deliveries perform, and how delivery affects customer satisfaction.
 
+## Key insights
+
+- **Revenue grew 141%** (Jan–Aug 2018 vs. 2017) but stopped growing in 2018.
+- **Late delivery destroys satisfaction:** 62% of late orders get a 1–2 ★ review, against 9% of on-time orders.
+- **Peaks break the delivery network:** late orders rose from 4% to 12% on Black Friday 2017 and to 19% in March 2018.
+- **Customers don't come back:** only 3% ordered twice.
+- **Revenue is concentrated:** São Paulo state brings 38% of revenue; the top 10% of sellers bring 67%.
+
 ## Business questions
 
 1. How big is the business, and how did sales grow over time?
@@ -21,7 +29,7 @@ The goal: find what drives revenue, how well deliveries perform, and how deliver
 ## Tools
 
 - SQL (SQLite, DB Browser for SQLite)
-- Power BI (dashboard, in progress)
+- Power BI (dashboard: next step)
 
 ## Method
 
@@ -223,11 +231,38 @@ The score drops with every extra day of delay:
 
 ### 7. Sellers
 
-_In progress._
+**Concentration.** The marketplace depends on a small group of sellers.
+The top 10% of sellers (297 of 2,970) bring **67%** of revenue. The bottom half brings less than 4%.
+
+| Seller group (by revenue) | Sellers | Revenue (BRL) | Share |
+|---|---|---|---|
+| top 10% | 297 | 8,873,076 | 67.1% |
+| 10–20% | 297 | 2,006,583 | 15.2% |
+| 20–30% | 297 | 1,026,473 | 7.8% |
+| 30–50% | 594 | 878,070 | 6.7% |
+| bottom 50% | 1,485 | 437,295 | 3.3% |
+
+**Top sellers.** 9 of the 10 biggest sellers are in São Paulo state.
+The second-largest seller (in Bahia) reaches 218K BRL with only 348 orders: few, expensive items and only 3% late.
+
+**Risk.** Some big sellers have weak reviews. One seller ranks 5th by revenue (973 orders, 187K BRL) but scores only 3.35 ★.
+The lowest-rated seller (108 orders) scores 2.27 ★ with 15% late deliveries.
+Low scores and high late rates go together, which confirms finding 6.
 
 ## Recommendations
 
-_In progress._
+1. **Prepare for peaks.** Late deliveries tripled during Black Friday 2017 and reached 19% in March 2018.
+   Book extra carrier capacity before November, and add buffer days to the estimated delivery date during peaks. A realistic promise costs less than a broken one.
+2. **Fix delivery outside São Paulo.** Rio de Janeiro is the second-largest market but has 12% late orders; the north-east reaches 17%.
+   Test a regional stock point in Rio, and recruit more sellers in the north-east.
+3. **Protect reviews by protecting delivery.** A late order gets a bad review 62% of the time, against 9% when on time.
+   Send an automatic message with a discount when an order is about to be late.
+4. **Win customers back.** Only 3% of customers buy twice.
+   Start a follow-up campaign after the first order (for example a voucher for the second purchase), and target the 16% of customers who spend 200 BRL or more, because they bring half of revenue.
+5. **Manage key sellers.** The top 10% of sellers bring 67% of revenue.
+   Give them an account manager and a monthly scorecard (revenue, review score, late rate), and act quickly when a big seller's score drops below 4.
+6. **Review freight for cheap and bulky items.** Freight is 29% of the price for electronics and 25% for furniture.
+   Test free-shipping thresholds or bundle offers in these categories.
 
 ## Repository structure
 
