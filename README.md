@@ -91,7 +91,34 @@ Revenue grew fast during 2017: January to August 2018 brought 7.22 M BRL, agains
 
 ### 3. Customers
 
-_In progress._
+**Location.** São Paulo state (SP) alone brings 38% of revenue and 42% of orders.
+The top 3 states (SP, RJ, MG) bring 63% of revenue.
+
+| State | Customers | Orders | Revenue (BRL) |
+|---|---|---|---|
+| SP | 39,156 | 40,501 | 5,067,633 |
+| RJ | 11,917 | 12,350 | 1,759,651 |
+| MG | 11,001 | 11,354 | 1,552,482 |
+| RS | 5,168 | 5,345 | 728,897 |
+| PR | 4,769 | 4,923 | 666,064 |
+
+Top cities: São Paulo (14,528 customers), Rio de Janeiro (6,361), Belo Horizonte (2,606), Brasília (2,013).
+
+**Loyalty.** Only **3%** of customers (2,801 of 93,358) ordered more than once.
+Almost all revenue comes from first-time buyers.
+
+**Spend.** A small group of high spenders carries the business:
+
+| Total spend (BRL) | Customers | Revenue (BRL) |
+|---|---|---|
+| under 50 | 27,054 | 862,728 |
+| 50–99 | 26,412 | 1,993,030 |
+| 100–199 | 24,804 | 3,567,009 |
+| 200–499 | 11,454 | 3,423,611 |
+| 500+ | 3,634 | 3,375,121 |
+
+Customers who spent 200 BRL or more are 16% of all customers but bring 51% of revenue.
+The 500+ group alone (4% of customers) brings 26%.
 
 ### 4. Products
 
